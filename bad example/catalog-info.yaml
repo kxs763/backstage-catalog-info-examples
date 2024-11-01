@@ -8,6 +8,7 @@ metadata:
   annotations:
     example.com/service-discovery: artistweb
     circleci.com/project-slug: github/example-org/artist-website
+    validator: test
   tags:
     - java
   links:
@@ -20,6 +21,3 @@ spec:
   lifecycle: production
   owner: artist-relations-team
   system: public-websites
-notes:
-  type: info
-  description: this makes the entity fail validation
